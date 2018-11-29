@@ -25,8 +25,6 @@
         _myTextView = [[UITextView alloc]initWithFrame:CGRectMake(35, 0, self.bounds.size.width - 35, self.bounds.size.height)];
 //        _myTextView.backgroundColor = [UIColor brownColor];
         _myTextView.delegate = self;
-//        // 设置可点击富文本字体颜色
-//        _myTextView.linkTextAttributes = @{NSForegroundColorAttributeName:[UIColor whiteColor]};
         _myTextView.editable = NO;        // 禁止输入，否则会弹出输入键盘
         _myTextView.scrollEnabled = NO;   // 可选的，视具体情况而定
         [self addSubview:_myTextView];

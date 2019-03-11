@@ -3,7 +3,7 @@
 
 1 > 导入类 'ZHAttributeTextView'
 2 > 然后在需要实现的地方 #import "ZHAttributeTextView.h"
-3 > 创建对象, 并且设置属性 (可以把下面代码拷贝到你需要实现的地方)
+3 > 创建对象, 并且设置属性 (可以把下面代码拷贝到你需要实现的地方)\n
 ZHAttributeTextView *myTextView = [[ZHAttributeTextView alloc]initWithFrame:CGRectMake(10, 300, self.view.bounds.size.width - 20, 50)];
 myTextView.numClickEvent = 2;                       // 有几个点击事件(只能设为1个或2个)
 myTextView.oneClickLeftBeginNum = 7;         // 第一个点击的起始坐标数字是几

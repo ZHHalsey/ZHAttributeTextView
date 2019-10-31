@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     ZHAttributeTextView *myTextView = [[ZHAttributeTextView alloc]initWithFrame:CGRectMake(10, 300, self.view.bounds.size.width - 20, 50)];
-    myTextView.numClickEvent = 2;                        // 有几个点击事件(只能设为1个或2个)
+    myTextView.numClickEvent = 2;                        // 有几个点击事件(这里只能设为1个或2个)
     myTextView.oneClickLeftBeginNum = 7;                 // 第一个点击的起始坐标数字是几
     myTextView.oneTitleLength = 12;                      // 第一个点击的文本长度是几
     myTextView.twoClickLeftBeginNum = 19;                // 第二个点击的起始坐标数字是几

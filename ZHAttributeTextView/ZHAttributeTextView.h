@@ -21,8 +21,8 @@ typedef void(^leftAgreeBtnBlock)(UIButton *btn);
 @property (nonatomic, assign)int oneTitleLength;                // 第一个点击长度
 @property (nonatomic, assign)int twoClickLeftBeginNum;          // 第二个点击的起点
 @property (nonatomic, assign)int twoTitleLength;                // 第二个点击长度
-@property (nonatomic,copy)UIColor *titleTapColor;               // 可点击富文本字体颜色
-@property (nonatomic, strong)NSString *content;                 // 内容
+@property (nonatomic, strong)UIColor *titleTapColor;            // 可点击富文本字体颜色
+@property (nonatomic, copy)NSString *content;                   // 内容
 @property (nonatomic, strong)eventBlock eventblock;             // 内容点击事件
 @property (nonatomic, strong)leftAgreeBtnBlock agreeBtnClick;   // 左侧按钮点击事件
 

@@ -40,6 +40,7 @@
 - (void)setContent:(NSString *)content{
     _content = content;
     NSMutableAttributedString *attStr = [[NSMutableAttributedString alloc]initWithString:content];
+    // 如果有三个点击事件在下面添加
     if (self.numClickEvent == 1) {
         [attStr addAttribute:NSLinkAttributeName value:@"click://" range:NSMakeRange(self.oneClickLeftBeginNum, self.oneTitleLength)];
         [attStr addAttributes:@{NSFontAttributeName: [UIFont systemFontOfSize:self.fontSize]} range:NSMakeRange(self.oneClickLeftBeginNum, self.oneTitleLength)];
